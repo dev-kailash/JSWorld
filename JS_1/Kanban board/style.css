@@ -1,0 +1,65 @@
+
+
+:root {
+    --pink: lightpink;
+    --blue: lightblue;
+    --green: lightgreen;
+    --purple: rgb(161, 37, 161);
+    --white: white; 
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html,body { margin: 0;}
+
+a { text-decoration: none;}
+
+li { list-style: none;}
+
+.toolbox-cont {
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+.color{
+    height: 1.5rem;
+    width:4rem;
+}
+
+
+.toolbox-priority-cont {
+    height: 70%;
+    background-color: gray;
+    width: 20rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.pink { background-color: var(--pink);}
+.green { background-color: var(--green);}
+.blue { background-color: var(--blue);}
+.purple { background-color: var(--purple);}
+
+
+.action-btn-cont {
+    height: 70%;
+    background-color: var(--white);
+    width: 10rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.add-btn, .remove-btn {
+    font-size: 1.75reml
+}
