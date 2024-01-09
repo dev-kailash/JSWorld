@@ -9,3 +9,5 @@
     3. IndexedDB Storage
  
     4. Kanban Board 
+
+    5. Bishop Trace Path
