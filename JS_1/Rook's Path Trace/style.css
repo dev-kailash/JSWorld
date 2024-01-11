@@ -1,0 +1,15 @@
+div.board {
+    border-style: double;
+    height: 578px;
+    width: 578px;
+}
+
+div.row {
+    display: flex;
+}
+
+div.checkbox {
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+}
